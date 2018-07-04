@@ -1,0 +1,64 @@
+
+{
+	gl.supports_OES_map_buffer: false
+	gl.supports_vertex_array_object: true
+	cocos2d.x.version: Quick-Cocos2dx-Community 3.7.2 Release
+	gl.vendor: Intel Inc.
+	gl.supports_PVRTC: false
+	gl.renderer: Intel(R) Iris(TM) Plus Graphics 640
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.build_type: DEBUG
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.max_texture_size: 16384
+	gl.supports_ETC1: false
+	gl.supports_BGRA8888: false
+	gl.max_texture_units: 16
+	gl.supports_OES_packed_depth_stencil: false
+	gl.supports_ATITC: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.version: 2.1 INTEL-10.32.48
+	gl.supports_S3TC: true
+	gl.supports_OES_depth24: false
+}
+
+
+Quick-Cocos2dx-Community C++ support ready.
+------------------------------------------------
+LOAD LUA FILE: /Users/carbon/Desktop/mygame/src/main.lua
+------------------------------------------------
+[LUA-print] ===========================================================
+[LUA-print]               LOAD QUICK FRAMEWORK
+[LUA-print] ===========================================================
+[LUA-print] [INFO] 
+[LUA-print] [INFO] # DEBUG                        = 1
+[LUA-print] [INFO] #
+[LUA-print] [INFO] # device.platform              = mac
+[LUA-print] [INFO] # device.model                 = unknown
+[LUA-print] [INFO] # device.language              = en
+[LUA-print] [INFO] # device.writablePath          = /Users/carbon/Desktop/mygame/
+[LUA-print] [INFO] # device.directorySeparator    = /
+[LUA-print] [INFO] # device.pathSeparator         = :
+[LUA-print] [INFO] #
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 1536.00
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 2304.00
+[LUA-print] [INFO] # display.widthInPixels        = 520.00
+[LUA-print] [INFO] # display.heightInPixels       = 780.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 0.34
+[LUA-print] [INFO] # display.width                = 1536.00
+[LUA-print] [INFO] # display.height               = 2304.00
+[LUA-print] [INFO] # display.cx                   = 768.00
+[LUA-print] [INFO] # display.cy                   = 1152.00
+[LUA-print] [INFO] # display.left                 = 0.00
+[LUA-print] [INFO] # display.right                = 1536.00
+[LUA-print] [INFO] # display.top                  = 2304.00
+[LUA-print] [INFO] # display.bottom               = 0.00
+[LUA-print] [INFO] # display.c_left               = -768.00
+[LUA-print] [INFO] # display.c_right              = 768.00
+[LUA-print] [INFO] # display.c_top                = 1152.00
+[LUA-print] [INFO] # display.c_bottom             = -1152.00
+[LUA-print] [INFO] #
+[LUA-print] 0
+[LUA-print] 2

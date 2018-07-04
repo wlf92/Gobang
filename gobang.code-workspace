@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "gobang-server"
+		},
+		{
+			"path": "gobang-client/src"
+		}
+	],
+	"settings": {}
+}
