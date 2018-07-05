@@ -3,18 +3,18 @@ syntax = "proto2";
 package gobang;
 
 message User {
-    required int32 userID = 1;
+    required int32 user_id = 1;
     required int32 score = 2;
 }
 
 message JoinGameReq {
-    required int32 userID = 1;
-    required int32 gameID = 2;
+    required int32 user_id = 1;
+    required int32 game_id = 2;
 }
 
 message JoinGameAck {
-    required int32 userID = 1;
-    required int32 gameID = 2;
+    required int32 user_id = 1;
+    required int32 game_id = 2;
 }
 
 /////////////////////////////////

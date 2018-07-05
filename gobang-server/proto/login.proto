@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package login;
+
+message LoginAccount {
+    required string account = 1;
+    required string password = 2;
+}
