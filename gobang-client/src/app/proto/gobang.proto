@@ -1,0 +1,43 @@
+syntax = "proto2";
+
+package gobang;
+
+message User {
+    required int32 userID = 1;
+    required int32 score = 2;
+}
+
+message JoinGameReq {
+    required int32 userID = 1;
+    required int32 gameID = 2;
+}
+
+message JoinGameAck {
+    required int32 userID = 1;
+    required int32 gameID = 2;
+}
+
+/////////////////////////////////
+
+message Step {
+    required int32 x = 1;
+    required int32 y = 2;
+    required int32 put_chair = 3;
+}
+
+message PutReq {
+    required int32 x = 1;
+    required int32 y = 2;
+}
+
+message PutAck {
+    required int32 x = 1;
+    required int32 y = 2;
+    required int32 put_chair = 3;
+    required int32 next_chair = 4;
+}
+
+message GameStatus {
+    repeated Step steps = 1;
+    optional int32 next_chair = 2;
+}
